@@ -18,4 +18,4 @@
   .btn-grey-jumbo {
     @apply bg-orange-400 shadow-md rounded-3xl w-full h-12 text-black font-medium flex justify-center items-center;
   }
-}
+};
