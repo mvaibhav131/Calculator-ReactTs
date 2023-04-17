@@ -215,13 +215,12 @@ function App() {
      <a
        className="text-black font-bold text-2xl"
        href="https://tailwind-elements.com/"
-       >  Vaibhav More </a
-     >
+       >  Vaibhav More </a>
    </div>
  </footer>
     </div>
 
-  );
-};
+  )
+}
 
 export default App;
