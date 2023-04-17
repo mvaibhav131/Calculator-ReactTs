@@ -32,11 +32,9 @@ function App() {
     }
     if (value === '%') setResult(eval(number + '/100').toString());
   };
-
   const calculate = () => {
     setNumber(eval(number).toString());
   };
-
   const deleteLast = () => {
     if (number === '') {
       return;

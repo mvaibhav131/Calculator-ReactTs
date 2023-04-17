@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer components {
   .btn-yellow {
     @apply bg-yellow-100 shadow-md rounded-2xl w-12 h-12 text-yellow-800 font-medium flex justify-center items-center;
