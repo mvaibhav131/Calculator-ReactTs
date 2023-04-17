@@ -45,7 +45,6 @@ function App() {
     setNumber(value);
     if (!ops.includes(number.slice(-2, -1))) setResult(eval(value));
   };
-
   const setAC = () => {
     const value = '';
     setNumber(value);
@@ -140,8 +139,7 @@ function App() {
         </div>
       </div>
     </div>
-   
-   <footer className="bg-blue-200 text-center text-white dark:bg-neutral-600">
+      <footer className="bg-blue-200 text-center text-white dark:bg-neutral-600">
    <div className="container pt-11 ml-9">
      <div className="mb-11 flex justify-center">
        {/* <a href="#!" className="mr-7 text-neutral-800 dark:text-neutral-200">
@@ -208,8 +206,7 @@ function App() {
        </a>
      </div>
    </div>
- 
-   <div
+    <div
      className="bg-blue-300 p-4 text-center dark:bg-neutral-700 text-black font-bold text-2xl">
      © 2023 Copyright:  
      <a
@@ -219,8 +216,6 @@ function App() {
    </div>
  </footer>
     </div>
-
   )
 }
-
 export default App;
