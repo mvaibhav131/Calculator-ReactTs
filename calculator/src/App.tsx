@@ -137,7 +137,7 @@ function App() {
         </div>
       </div>
     </div>
-      <footer className="bg-blue-200 text-center text-white dark:bg-neutral-600">
+    <footer className="bg-blue-200 text-center text-white dark:bg-neutral-600">
    <div className="container pt-11 ml-9">
      <div className="mb-11 flex justify-center">
        {/* <a href="#!" className="mr-7 text-neutral-800 dark:text-neutral-200">
