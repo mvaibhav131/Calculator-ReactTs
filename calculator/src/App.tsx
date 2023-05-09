@@ -212,8 +212,8 @@ function App() {
        href="https://tailwind-elements.com/"
        >  Vaibhav More </a>
    </div>
- </footer>
-    </div>
+   </footer>
+   </div>
   )
 };
 
