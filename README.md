@@ -4,7 +4,7 @@
 
 [to click here to see my project](https://vaibhav-react-ts-calculator.netlify.app/)
 ## start the project creating the React App
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
