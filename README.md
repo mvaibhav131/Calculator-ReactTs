@@ -1,4 +1,4 @@
-# React-ts-Calculator
+# React-ts-Calculator.
 ![Screenshot from 2023-03-18 18-29-24](https://user-images.githubusercontent.com/98808183/226107987-4b3de6c1-0a2a-4ddb-bb38-3d8116bade3a.png)
 
 
