@@ -3,7 +3,7 @@
 
 
 [to click here to see my project](https://vaibhav-react-ts-calculator.netlify.app/)
-## start the project creating the React App
+## start the project creating the React App.
 ### `npm run start`
 
 Runs the app in the development mode.\
