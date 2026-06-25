@@ -1,53 +1,96 @@
-# React-ts-Calculators :-
-![Screenshot from 2023-03-18 18-29-24](https://user-images.githubusercontent.com/98808183/226107987-4b3de6c1-0a2a-4ddb-bb38-3d8116bade3a.png)
+# Calculator — React + TypeScript
 
+A sleek, iOS-inspired dark calculator built with **React**, **TypeScript**, and **Tailwind CSS**.
 
-[to click here to see my project](https://vaibhav-react-ts-calculator.netlify.app/)
-## start the project creating the React App.
-### `npm run start`
+🔗 **Live Demo:** [vaibhav-react-ts-calculator.netlify.app](https://vaibhav-react-ts-calculator.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console...
+## Features
 
-### `npm run test`
+- Dark glassmorphism UI inspired by iOS Calculator
+- Responsive layout — works on mobile, tablet, and desktop
+- Supports `+`, `−`, `×`, `÷`, `%`, and decimal input
+- Live result preview as you type
+- Backspace (`C`) and full clear (`AC`)
+- Built with TypeScript for type safety
+- Styled entirely with Tailwind CSS utility classes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Tool         | Purpose          |
+| ------------ | ---------------- |
+| React 18     | UI library       |
+| TypeScript   | Type safety      |
+| Tailwind CSS | Styling          |
+| Docker       | Containerization |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-If you want to remove build dependency then run following commands
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd calculator
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Run in development mode
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+Opens [http://localhost:3000](http://localhost:3000) in your browser. Hot-reloads on file changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm test
+```
 
-### Code Splitting
+### Build for production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+Outputs optimized static files to the `build/` folder, ready for deployment.
+
+---
+
+## Docker
+
+```bash
+docker build -t calculator .
+docker run -p 3000:3000 calculator
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── App.tsx          # Main calculator component (logic + UI)
+├── App.css          # Custom Tailwind component classes
+├── index.tsx        # React entry point
+└── index.css        # Global styles / Tailwind directives
+```
+
+---
+
+## Author
+
+Made by [Vaibhav More](https://vaibhav-more-portfolio-site.netlify.app/)
+
+[![Twitter](https://img.shields.io/badge/Twitter-@mvaibhav131-1DA1F2?style=flat&logo=twitter)](https://twitter.com/mvaibhav131)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vaibhav131-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/vaibhav131/)
+[![GitHub](https://img.shields.io/badge/GitHub-mvaibhav131-181717?style=flat&logo=github)](https://github.com/mvaibhav131)
+[![Instagram](https://img.shields.io/badge/Instagram-vaibhavmore1997-E4405F?style=flat&logo=instagram)](https://www.instagram.com/vaibhavmore1997/)
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
@@ -66,4 +109,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
