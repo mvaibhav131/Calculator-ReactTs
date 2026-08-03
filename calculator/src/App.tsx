@@ -233,7 +233,7 @@ function App() {
           </a>
         </div>
         <p className="text-zinc-700 text-xs mt-1">
-          © 2023{" "}
+            © {new Date().getFullYear()}{" "}
           <a
             href="https://vaibhav-more-portfolio-site.netlify.app/"
             className="hover:text-zinc-500 transition-colors"

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Calculator body -->
+  <rect x="8" y="4" width="48" height="56" rx="6" ry="6" fill="#2d3748"/>
+  <!-- Display screen -->
+  <rect x="14" y="10" width="36" height="14" rx="3" ry="3" fill="#68d391"/>
+  <!-- Display text indicator -->
+  <rect x="30" y="15" width="14" height="4" rx="1" ry="1" fill="#276749"/>
+  <!-- Button rows -->
+  <!-- Row 1 -->
+  <rect x="14" y="30" width="8" height="7" rx="2" fill="#718096"/>
+  <rect x="25" y="30" width="8" height="7" rx="2" fill="#718096"/>
+  <rect x="36" y="30" width="8" height="7" rx="2" fill="#e53e3e"/>
+  <rect x="47" y="30" width="5" height="7" rx="2" fill="#e53e3e"/>
+  <!-- Row 2 -->
+  <rect x="14" y="40" width="8" height="7" rx="2" fill="#a0aec0"/>
+  <rect x="25" y="40" width="8" height="7" rx="2" fill="#a0aec0"/>
+  <rect x="36" y="40" width="8" height="7" rx="2" fill="#a0aec0"/>
+  <rect x="47" y="40" width="5" height="7" rx="2" fill="#ed8936"/>
+  <!-- Row 3 -->
+  <rect x="14" y="50" width="19" height="7" rx="2" fill="#a0aec0"/>
+  <rect x="36" y="50" width="8" height="7" rx="2" fill="#a0aec0"/>
+  <rect x="47" y="50" width="5" height="7" rx="2" fill="#ed8936"/>
+</svg>
